@@ -1,0 +1,62 @@
+.anim,.anim2,.anim3,.anim4,.anim5,.back,.front
+{
+	height:200px;
+	width: 170px;
+	background-image: url("bpage.png");
+	background-size: 170px 200px;
+	border:1px solid black;
+	margin-left: 400px;
+	position: absolute;
+	left:100px;
+	top:100px;
+	
+
+}
+.front
+{
+	background-image: url("Front.png") !important;
+}
+
+
+@-webkit-keyframes rot{
+	from{transform:rotateY(0deg) ;}
+	to{transform:rotateY(180deg) ;}
+
+}
+@-webkit-keyframes null{
+
+}
+@keyframes rot{
+	from{transform:rotateY(0deg) ;}
+	to{transform:rotateY(180deg) ;}
+
+}
+@keyframes null{
+
+}
+@-moz-keyframes rot{
+	from{transform:rotateY(0deg) ;}
+	to{transform:rotateY(180deg) ;}
+
+}
+@-moz-keyframes null{
+
+}
+.anim,.anim2,.anim3,.anim4,.anim5,.front
+{
+	
+	-webkit-transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	-ms-transform-origin:0% 0%;
+	-webkit-animation-name:null;
+	animation-name:null;
+	-webkit-animation-duration:0s;
+	animation-duration:0s;
+}
+
+#but-pos
+{
+	position: absolute;
+	left:550px;
+	top:350px;
+}
